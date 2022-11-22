@@ -1,0 +1,42 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        //arrays
+
+        int[] marks= new int[4];
+        marks[0]= 79;
+        marks[1]= 89;
+        marks[2]= 90;
+        marks[3]= 67;
+        System.out.println(marks[3]);
+        Arrays.sort(marks);
+        System.out.println(marks[3]);
+
+        // if we already know about the values we want to store in the array then
+        /*
+        then we will use the following
+         */
+
+        int [] marks1 = { 85, 89,92};
+        int [][] totalResult = {{85,89,92},{94,78,68}};
+        System.out.println(totalResult[0][2]);
+
+        //operators
+
+        int a=2;
+        int b=7;
+        int diff= b-a;
+        System.out.println(diff);
+
+        int numb=1;
+
+        System.out.println(numb++);
+        System.out.println(++numb);
+        System.out.println(numb--);
+        System.out.println(--numb);
+
+
+    }
+}
