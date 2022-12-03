@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class ToCheckSpecialSymbolorAlphabet
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a character");
+		char ch= sc.next().charAt(0);
+		if (!(ch>='A' && ch<='Z'|| ch>='a' && ch<='z' || ch>='0' && ch<='9'))
+		{
+           System.out.println(" Is a SPECIAL SYMBOL");
+		}
+		else
+			System.out.println("IT IS a alphaet or figit");
+	}
+}

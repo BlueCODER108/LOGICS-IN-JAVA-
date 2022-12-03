@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class LowerCaseToUpperCase
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a lowercase character");
+		char ch= sc.next().charAt(0);
+		int ascii= ch;
+		ascii= ascii -32;
+		ch= (char)ascii;
+		System.out.println("THE UPPER CASE IS " + ch);
+	}
+}
